@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentiment Intelligence Command Deck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20260313d">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <div class="shell">
+    <header class="masthead">
+      <div>
+        <p class="label">Bitcoin Sentiment x Hyperliquid Performance Intelligence</p>
+        <h1>Command Deck: Fear, Greed, and Realized Trader Edge</h1>
+        <p class="lead">
+          This dashboard converts 211k+ trades into an executive decision surface. You can see where edge lives, when behavior breaks, and which accounts dominate each sentiment regime.
+        </p>
+        <div class="hero-actions">
+          <a class="hero-btn" href="../reports/analysis_report.md" target="_blank" rel="noreferrer">Open Brief Report</a>
+          <a class="hero-btn alt" href="../reports/dashboard_data.json" target="_blank" rel="noreferrer">Inspect Raw JSON</a>
+        </div>
+      </div>
+      <aside class="hero-callout">
+        <h3>Live Signal Snapshot</h3>
+        <p id="hero-signal-text">Loading latest regime and alpha signal...</p>
+        <div class="kpi-grid">
+          <div class="kpi-pill">
+            <small>Strongest Regime</small>
+            <strong id="hero-strong-regime">-</strong>
+          </div>
+          <div class="kpi-pill">
+            <small>Weakest Regime</small>
+            <strong id="hero-weak-regime">-</strong>
+          </div>
+          <div class="kpi-pill">
+            <small>Fear PnL</small>
+            <strong id="hero-fear">-</strong>
+          </div>
+          <div class="kpi-pill">
+            <small>Greed PnL</small>
+            <strong id="hero-greed">-</strong>
+          </div>
+        </div>
+      </aside>
+    </header>
+
+    <main class="dashboard">
+      <section class="panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>Core Performance Readout</h2>
+            <p class="panel-sub">A fast one-screen summary of volume, quality, and directional dependence on market mood.</p>
+          </div>
+        </div>
+        <div class="metrics" id="metric-grid"></div>
+        <div class="findings" id="findings-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Regime Power Matrix</h2>
+            <p class="panel-sub">Bars represent net PnL per trade. The line overlays win-rate behavior across regimes.</p>
+          </div>
+        </div>
+        <div class="canvas-wrap tall">
+          <canvas id="regime-chart"></canvas>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Sentiment vs PnL Timeline</h2>
+            <p class="panel-sub">Timeline overlays daily net PnL with sentiment index movement to reveal divergence and stress zones.</p>
+          </div>
+        </div>
+        <div class="canvas-wrap tall">
+          <canvas id="timeline-chart"></canvas>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Fear-Greed Capital Split</h2>
+            <p class="panel-sub">How much net performance came from fear-side vs greed-side market states.</p>
+          </div>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="split-chart"></canvas>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Account Divergence Leaders</h2>
+            <p class="panel-sub">Top accounts ranked by fear-minus-greed performance differential.</p>
+          </div>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="account-chart"></canvas>
+        </div>
+      </section>
+
+      <section class="panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>Activity-Weighted Behavior Field</h2>
+            <p class="panel-sub">Each bubble is account x regime behavior. Size reflects trade count, height reflects net PnL.</p>
+          </div>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="bubble-chart"></canvas>
+        </div>
+      </section>
+
+      <section class="panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>Account x Regime Heat Grid</h2>
+            <p class="panel-sub">Quick matrix to scan where top accounts capture or leak PnL by sentiment classification.</p>
+          </div>
+        </div>
+        <div class="heatmap" id="heatmap"></div>
+        <p class="legend">Color scale: red = weaker PnL, cyan = stronger PnL.</p>
+      </section>
+
+      <section class="panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>Caveats and Decision Hygiene</h2>
+            <p class="panel-sub">Treat these as interpretation guardrails before operationalizing the findings.</p>
+          </div>
+        </div>
+        <div class="caveats" id="caveats"></div>
+        <p class="footer-note">Frontend version: V3 Quantum Deck</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="assets/dashboard-data.js?v=20260313d"></script>
+  <script src="app.js?v=20260313d"></script>
+</body>
+</html>

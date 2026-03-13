@@ -1,0 +1,3497 @@
+window.__DASHBOARD_DATA__ = {
+  "overview": {
+    "trades": 211218,
+    "accounts": 32,
+    "startDate": "2023-05-01",
+    "endDate": "2025-05-01",
+    "totalNetPnl": 10008637.740944268,
+    "overallWinRate": 0.41124809438589516,
+    "sentimentCorrelation": -0.07855757073089972,
+    "fearNetPnl": 3979920.1075184587,
+    "greedNetPnl": 4775171.226179682,
+    "strongestRegime": {
+      "classification": "Extreme Greed",
+      "netPnlPerTrade": 67.21695952210067,
+      "winRate": 0.46494298859771954
+    },
+    "weakestRegime": {
+      "classification": "Neutral",
+      "netPnlPerTrade": 33.262920109487055,
+      "winRate": 0.3969909250119408
+    }
+  },
+  "findings": [
+    "Strongest regime: Extreme Greed with 67.22 net PnL per trade.",
+    "Weakest regime: Neutral with 33.26 net PnL per trade.",
+    "Fear regimes delivered 3,979,920.11 net PnL versus 4,775,171.23 in greed regimes.",
+    "Daily sentiment-to-PnL correlation was -0.079, indicating a weak linear relationship.",
+    "Median trade-level net PnL stayed near zero across regimes, implying performance is driven by skew rather than steady small wins."
+  ],
+  "regimeSummary": [
+    {
+      "classification": "Extreme Fear",
+      "trades": 21400,
+      "unique_accounts": 32,
+      "total_size_usd": 114484261.44,
+      "gross_pnl": 739110.24849,
+      "total_fees": 23888.6339393869,
+      "net_pnl": 715221.6145506131,
+      "avg_net_pnl": 33.4215707734,
+      "median_net_pnl": -0.005958485,
+      "win_rate": 0.3706074766,
+      "buy_share": 0.5109813084,
+      "avg_size_usd": 5349.7318429907,
+      "median_pnl_per_usd": -4.79999e-05,
+      "mean_pnl_per_usd": 0.0041080312,
+      "net_pnl_per_trade": 33.4215707734,
+      "fee_to_gross_pnl": 0.0323207992
+    },
+    {
+      "classification": "Fear",
+      "trades": 61837,
+      "unique_accounts": 32,
+      "total_size_usd": 483324789.79,
+      "gross_pnl": 3357155.441642,
+      "total_fees": 92456.9486741548,
+      "net_pnl": 3264698.4929678454,
+      "avg_net_pnl": 52.7952276625,
+      "median_net_pnl": -0.005752,
+      "win_rate": 0.4207675017,
+      "buy_share": 0.4895127513,
+      "avg_size_usd": 7816.1099307858,
+      "median_pnl_per_usd": -4.79975e-05,
+      "mean_pnl_per_usd": 0.0149249954,
+      "net_pnl_per_trade": 52.7952276625,
+      "fee_to_gross_pnl": 0.0275402645
+    },
+    {
+      "classification": "Neutral",
+      "trades": 37686,
+      "unique_accounts": 31,
+      "total_size_usd": 180242063.08,
+      "gross_pnl": 1292920.67555,
+      "total_fees": 39374.2683038708,
+      "net_pnl": 1253546.4072461291,
+      "avg_net_pnl": 33.2629201095,
+      "median_net_pnl": -0.007516,
+      "win_rate": 0.396990925,
+      "buy_share": 0.5033434167,
+      "avg_size_usd": 4782.7326614658,
+      "median_pnl_per_usd": -4.9999e-05,
+      "mean_pnl_per_usd": 0.0095111625,
+      "net_pnl_per_trade": 33.2629201095,
+      "fee_to_gross_pnl": 0.0304537386
+    },
+    {
+      "classification": "Greed",
+      "trades": 50303,
+      "unique_accounts": 31,
+      "total_size_usd": 288582494.72,
+      "gross_pnl": 2150129.272951,
+      "total_fees": 63098.6919791683,
+      "net_pnl": 2087030.5809718317,
+      "avg_net_pnl": 41.4891871453,
+      "median_net_pnl": -0.010485,
+      "win_rate": 0.3848279427,
+      "buy_share": 0.4885593305,
+      "avg_size_usd": 5736.884375087,
+      "median_pnl_per_usd": -5e-05,
+      "mean_pnl_per_usd": 0.0193979301,
+      "net_pnl_per_trade": 41.4891871453,
+      "fee_to_gross_pnl": 0.0293464643
+    },
+    {
+      "classification": "Extreme Greed",
+      "trades": 39992,
+      "unique_accounts": 30,
+      "total_size_usd": 124465164.57,
+      "gross_pnl": 2715171.310673,
+      "total_fees": 27030.66546515,
+      "net_pnl": 2688140.64520785,
+      "avg_net_pnl": 67.2169595221,
+      "median_net_pnl": -0.00114849,
+      "win_rate": 0.4649429886,
+      "buy_share": 0.4485897179,
+      "avg_size_usd": 3112.2515645629,
+      "median_pnl_per_usd": -9.4207e-06,
+      "mean_pnl_per_usd": 0.039773472,
+      "net_pnl_per_trade": 67.2169595221,
+      "fee_to_gross_pnl": 0.009955418
+    }
+  ],
+  "dailySeries": [
+    {
+      "trade_date": "2023-05-01",
+      "daily_net_pnl": 0.0,
+      "trades": 3,
+      "sentiment_value": 63.0
+    },
+    {
+      "trade_date": "2023-12-05",
+      "daily_net_pnl": -12.501455,
+      "trades": 9,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2023-12-14",
+      "daily_net_pnl": -233.735568,
+      "trades": 11,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2023-12-15",
+      "daily_net_pnl": -27.284523,
+      "trades": 2,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2023-12-16",
+      "daily_net_pnl": -3.837189,
+      "trades": 3,
+      "sentiment_value": 67.0
+    },
+    {
+      "trade_date": "2023-12-17",
+      "daily_net_pnl": 275.913286,
+      "trades": 14,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2023-12-18",
+      "daily_net_pnl": -7.791045,
+      "trades": 2,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2023-12-19",
+      "daily_net_pnl": 977.638016,
+      "trades": 15,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2023-12-20",
+      "daily_net_pnl": 127.323095,
+      "trades": 18,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2023-12-21",
+      "daily_net_pnl": 505.902933,
+      "trades": 49,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2023-12-22",
+      "daily_net_pnl": 119.614109,
+      "trades": 10,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2023-12-23",
+      "daily_net_pnl": 127.327149,
+      "trades": 13,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2023-12-24",
+      "daily_net_pnl": 907.881241,
+      "trades": 39,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2023-12-25",
+      "daily_net_pnl": -260.068473,
+      "trades": 3,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2023-12-27",
+      "daily_net_pnl": -747.741974,
+      "trades": 28,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2023-12-28",
+      "daily_net_pnl": -995.760176,
+      "trades": 23,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2023-12-29",
+      "daily_net_pnl": 366.532242,
+      "trades": 50,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2023-12-30",
+      "daily_net_pnl": 179.361122,
+      "trades": 52,
+      "sentiment_value": 68.0
+    },
+    {
+      "trade_date": "2024-01-01",
+      "daily_net_pnl": -195.591327,
+      "trades": 18,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2024-01-02",
+      "daily_net_pnl": 753.64194,
+      "trades": 17,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-01-03",
+      "daily_net_pnl": 767.390696,
+      "trades": 67,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-01-04",
+      "daily_net_pnl": -92.551772,
+      "trades": 5,
+      "sentiment_value": 68.0
+    },
+    {
+      "trade_date": "2024-01-05",
+      "daily_net_pnl": -261.844074,
+      "trades": 66,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-01-06",
+      "daily_net_pnl": 60.951322,
+      "trades": 22,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-01-07",
+      "daily_net_pnl": -1097.893699,
+      "trades": 97,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-01-08",
+      "daily_net_pnl": -650.487503,
+      "trades": 128,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-01-09",
+      "daily_net_pnl": -1030.362791,
+      "trades": 70,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-01-10",
+      "daily_net_pnl": -1951.136207,
+      "trades": 193,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-01-11",
+      "daily_net_pnl": -239.956672,
+      "trades": 21,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-01-12",
+      "daily_net_pnl": -1974.999751,
+      "trades": 7,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-01-15",
+      "daily_net_pnl": 140.200868,
+      "trades": 14,
+      "sentiment_value": 52.0
+    },
+    {
+      "trade_date": "2024-01-16",
+      "daily_net_pnl": -2316.490767,
+      "trades": 9,
+      "sentiment_value": 64.0
+    },
+    {
+      "trade_date": "2024-01-17",
+      "daily_net_pnl": 653.566505,
+      "trades": 53,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2024-01-18",
+      "daily_net_pnl": -23.724711,
+      "trades": 46,
+      "sentiment_value": 63.0
+    },
+    {
+      "trade_date": "2024-01-19",
+      "daily_net_pnl": -478.471103,
+      "trades": 48,
+      "sentiment_value": 51.0
+    },
+    {
+      "trade_date": "2024-01-20",
+      "daily_net_pnl": -414.097453,
+      "trades": 106,
+      "sentiment_value": 52.0
+    },
+    {
+      "trade_date": "2024-01-21",
+      "daily_net_pnl": 240.798716,
+      "trades": 11,
+      "sentiment_value": 56.0
+    },
+    {
+      "trade_date": "2024-01-22",
+      "daily_net_pnl": 1308.162691,
+      "trades": 85,
+      "sentiment_value": 55.0
+    },
+    {
+      "trade_date": "2024-01-23",
+      "daily_net_pnl": -454.9693,
+      "trades": 45,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-01-24",
+      "daily_net_pnl": -3036.12491,
+      "trades": 68,
+      "sentiment_value": 48.0
+    },
+    {
+      "trade_date": "2024-01-25",
+      "daily_net_pnl": -3110.270917,
+      "trades": 6,
+      "sentiment_value": 52.0
+    },
+    {
+      "trade_date": "2024-01-26",
+      "daily_net_pnl": 89.755765,
+      "trades": 5,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2024-01-28",
+      "daily_net_pnl": -2477.707544,
+      "trades": 11,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2024-01-29",
+      "daily_net_pnl": 383.299937,
+      "trades": 74,
+      "sentiment_value": 55.0
+    },
+    {
+      "trade_date": "2024-01-30",
+      "daily_net_pnl": -273.907001,
+      "trades": 49,
+      "sentiment_value": 61.0
+    },
+    {
+      "trade_date": "2024-01-31",
+      "daily_net_pnl": -2349.252292,
+      "trades": 859,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2024-02-01",
+      "daily_net_pnl": -0.502044,
+      "trades": 6,
+      "sentiment_value": 63.0
+    },
+    {
+      "trade_date": "2024-02-02",
+      "daily_net_pnl": 364.853837,
+      "trades": 42,
+      "sentiment_value": 63.0
+    },
+    {
+      "trade_date": "2024-02-03",
+      "daily_net_pnl": 113.646838,
+      "trades": 56,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2024-02-04",
+      "daily_net_pnl": -2.902985,
+      "trades": 35,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2024-02-05",
+      "daily_net_pnl": -199.003659,
+      "trades": 72,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2024-02-06",
+      "daily_net_pnl": -1204.222904,
+      "trades": 1088,
+      "sentiment_value": 64.0
+    },
+    {
+      "trade_date": "2024-02-07",
+      "daily_net_pnl": 240.902427,
+      "trades": 15,
+      "sentiment_value": 62.0
+    },
+    {
+      "trade_date": "2024-02-08",
+      "daily_net_pnl": 767.753137,
+      "trades": 10,
+      "sentiment_value": 66.0
+    },
+    {
+      "trade_date": "2024-02-11",
+      "daily_net_pnl": 958.487884,
+      "trades": 34,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-02-12",
+      "daily_net_pnl": 886.769876,
+      "trades": 16,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-02-13",
+      "daily_net_pnl": 559.483882,
+      "trades": 14,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-02-14",
+      "daily_net_pnl": 3807.682359,
+      "trades": 111,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-02-15",
+      "daily_net_pnl": 1810.09138,
+      "trades": 63,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-02-16",
+      "daily_net_pnl": 5464.543664,
+      "trades": 182,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-02-17",
+      "daily_net_pnl": 1867.586747,
+      "trades": 94,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-02-18",
+      "daily_net_pnl": 480.765755,
+      "trades": 97,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-02-19",
+      "daily_net_pnl": 4302.915943,
+      "trades": 101,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-02-20",
+      "daily_net_pnl": 3260.555149,
+      "trades": 39,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-02-21",
+      "daily_net_pnl": 1855.827941,
+      "trades": 22,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-02-22",
+      "daily_net_pnl": 3868.65249,
+      "trades": 88,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-02-23",
+      "daily_net_pnl": 1420.619999,
+      "trades": 143,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-02-25",
+      "daily_net_pnl": -30.6809,
+      "trades": 5,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-02-26",
+      "daily_net_pnl": 4416.945025,
+      "trades": 39,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-02-27",
+      "daily_net_pnl": 892.273342,
+      "trades": 63,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-02-28",
+      "daily_net_pnl": 2505.124387,
+      "trades": 45,
+      "sentiment_value": 82.0
+    },
+    {
+      "trade_date": "2024-02-29",
+      "daily_net_pnl": 9812.637907,
+      "trades": 116,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-03-01",
+      "daily_net_pnl": 8244.788263,
+      "trades": 137,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-03-02",
+      "daily_net_pnl": 231.369729,
+      "trades": 31,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-03-03",
+      "daily_net_pnl": 8363.593348,
+      "trades": 79,
+      "sentiment_value": 83.0
+    },
+    {
+      "trade_date": "2024-03-04",
+      "daily_net_pnl": 27800.335191,
+      "trades": 300,
+      "sentiment_value": 82.0
+    },
+    {
+      "trade_date": "2024-03-05",
+      "daily_net_pnl": 19795.4645,
+      "trades": 180,
+      "sentiment_value": 90.0
+    },
+    {
+      "trade_date": "2024-03-06",
+      "daily_net_pnl": 6818.180457,
+      "trades": 82,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-03-08",
+      "daily_net_pnl": 4275.557865,
+      "trades": 67,
+      "sentiment_value": 81.0
+    },
+    {
+      "trade_date": "2024-03-09",
+      "daily_net_pnl": 9947.64986,
+      "trades": 117,
+      "sentiment_value": 84.0
+    },
+    {
+      "trade_date": "2024-03-10",
+      "daily_net_pnl": 2480.646128,
+      "trades": 42,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-03-11",
+      "daily_net_pnl": 3579.706605,
+      "trades": 42,
+      "sentiment_value": 82.0
+    },
+    {
+      "trade_date": "2024-03-12",
+      "daily_net_pnl": 3034.220047,
+      "trades": 8,
+      "sentiment_value": 81.0
+    },
+    {
+      "trade_date": "2024-03-13",
+      "daily_net_pnl": -2.100278,
+      "trades": 7,
+      "sentiment_value": 81.0
+    },
+    {
+      "trade_date": "2024-03-14",
+      "daily_net_pnl": 3454.14904,
+      "trades": 18,
+      "sentiment_value": 88.0
+    },
+    {
+      "trade_date": "2024-03-15",
+      "daily_net_pnl": 6187.028648,
+      "trades": 62,
+      "sentiment_value": 83.0
+    },
+    {
+      "trade_date": "2024-03-16",
+      "daily_net_pnl": 218.05156,
+      "trades": 8,
+      "sentiment_value": 81.0
+    },
+    {
+      "trade_date": "2024-03-17",
+      "daily_net_pnl": 469.530626,
+      "trades": 23,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-03-18",
+      "daily_net_pnl": 1432.01442,
+      "trades": 19,
+      "sentiment_value": 77.0
+    },
+    {
+      "trade_date": "2024-03-19",
+      "daily_net_pnl": 642.809661,
+      "trades": 24,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-03-20",
+      "daily_net_pnl": 6383.255761,
+      "trades": 69,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-03-21",
+      "daily_net_pnl": 2319.113325,
+      "trades": 28,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-03-24",
+      "daily_net_pnl": 1288.12964,
+      "trades": 19,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-03-25",
+      "daily_net_pnl": 1282.925716,
+      "trades": 7,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-03-26",
+      "daily_net_pnl": 3187.75919,
+      "trades": 118,
+      "sentiment_value": 81.0
+    },
+    {
+      "trade_date": "2024-03-27",
+      "daily_net_pnl": 118.693188,
+      "trades": 38,
+      "sentiment_value": 83.0
+    },
+    {
+      "trade_date": "2024-03-28",
+      "daily_net_pnl": 218.791779,
+      "trades": 13,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-03-29",
+      "daily_net_pnl": 852.677374,
+      "trades": 15,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-03-30",
+      "daily_net_pnl": 1090.635686,
+      "trades": 45,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-03-31",
+      "daily_net_pnl": 898.816623,
+      "trades": 13,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-04-01",
+      "daily_net_pnl": 2424.212044,
+      "trades": 77,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-04-02",
+      "daily_net_pnl": 803.628238,
+      "trades": 41,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-04-03",
+      "daily_net_pnl": 125.127199,
+      "trades": 4,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-04-04",
+      "daily_net_pnl": -33.595685,
+      "trades": 32,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-04-05",
+      "daily_net_pnl": 10603.054168,
+      "trades": 100,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-04-06",
+      "daily_net_pnl": 212.456857,
+      "trades": 16,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-04-07",
+      "daily_net_pnl": -17.495845,
+      "trades": 23,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-04-08",
+      "daily_net_pnl": 1156.636152,
+      "trades": 30,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-04-09",
+      "daily_net_pnl": -19.972341,
+      "trades": 3,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-04-10",
+      "daily_net_pnl": 5084.335852,
+      "trades": 41,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-04-11",
+      "daily_net_pnl": 363.002835,
+      "trades": 16,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-04-12",
+      "daily_net_pnl": -690.206714,
+      "trades": 129,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-04-13",
+      "daily_net_pnl": 6502.452579,
+      "trades": 89,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-04-14",
+      "daily_net_pnl": -36317.489924,
+      "trades": 107,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-04-15",
+      "daily_net_pnl": 3733.438116,
+      "trades": 41,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-04-16",
+      "daily_net_pnl": 2449.244536,
+      "trades": 47,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2024-04-17",
+      "daily_net_pnl": 2430.847437,
+      "trades": 14,
+      "sentiment_value": 67.0
+    },
+    {
+      "trade_date": "2024-04-19",
+      "daily_net_pnl": 1828.405202,
+      "trades": 35,
+      "sentiment_value": 66.0
+    },
+    {
+      "trade_date": "2024-04-20",
+      "daily_net_pnl": -121.289047,
+      "trades": 22,
+      "sentiment_value": 66.0
+    },
+    {
+      "trade_date": "2024-04-22",
+      "daily_net_pnl": -16.797764,
+      "trades": 9,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-04-23",
+      "daily_net_pnl": 1048.22772,
+      "trades": 66,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-04-24",
+      "daily_net_pnl": 229.739591,
+      "trades": 20,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-04-25",
+      "daily_net_pnl": -160.159512,
+      "trades": 74,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-04-26",
+      "daily_net_pnl": -1.745898,
+      "trades": 3,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-04-27",
+      "daily_net_pnl": 4227.495589,
+      "trades": 27,
+      "sentiment_value": 67.0
+    },
+    {
+      "trade_date": "2024-04-28",
+      "daily_net_pnl": -15.394946,
+      "trades": 58,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2024-04-29",
+      "daily_net_pnl": 488.889206,
+      "trades": 45,
+      "sentiment_value": 67.0
+    },
+    {
+      "trade_date": "2024-04-30",
+      "daily_net_pnl": -43.75655,
+      "trades": 24,
+      "sentiment_value": 67.0
+    },
+    {
+      "trade_date": "2024-05-01",
+      "daily_net_pnl": -30.458908,
+      "trades": 14,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2024-05-03",
+      "daily_net_pnl": 5207.106364,
+      "trades": 36,
+      "sentiment_value": 48.0
+    },
+    {
+      "trade_date": "2024-05-04",
+      "daily_net_pnl": -20.649559,
+      "trades": 9,
+      "sentiment_value": 67.0
+    },
+    {
+      "trade_date": "2024-05-05",
+      "daily_net_pnl": -7.496778,
+      "trades": 6,
+      "sentiment_value": 69.0
+    },
+    {
+      "trade_date": "2024-05-06",
+      "daily_net_pnl": 896.484634,
+      "trades": 9,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-05-07",
+      "daily_net_pnl": 845.498632,
+      "trades": 18,
+      "sentiment_value": 68.0
+    },
+    {
+      "trade_date": "2024-05-08",
+      "daily_net_pnl": -21.511066,
+      "trades": 13,
+      "sentiment_value": 64.0
+    },
+    {
+      "trade_date": "2024-05-09",
+      "daily_net_pnl": 1069.907724,
+      "trades": 28,
+      "sentiment_value": 55.0
+    },
+    {
+      "trade_date": "2024-05-10",
+      "daily_net_pnl": 2046.833005,
+      "trades": 22,
+      "sentiment_value": 66.0
+    },
+    {
+      "trade_date": "2024-05-11",
+      "daily_net_pnl": 229.467617,
+      "trades": 9,
+      "sentiment_value": 53.0
+    },
+    {
+      "trade_date": "2024-05-12",
+      "daily_net_pnl": -19.312829,
+      "trades": 23,
+      "sentiment_value": 56.0
+    },
+    {
+      "trade_date": "2024-05-13",
+      "daily_net_pnl": 2069.26226,
+      "trades": 28,
+      "sentiment_value": 57.0
+    },
+    {
+      "trade_date": "2024-05-14",
+      "daily_net_pnl": 1099.47462,
+      "trades": 23,
+      "sentiment_value": 66.0
+    },
+    {
+      "trade_date": "2024-05-15",
+      "daily_net_pnl": 866.747695,
+      "trades": 36,
+      "sentiment_value": 64.0
+    },
+    {
+      "trade_date": "2024-05-16",
+      "daily_net_pnl": 157.67248,
+      "trades": 27,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-05-18",
+      "daily_net_pnl": 3478.188569,
+      "trades": 25,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-05-19",
+      "daily_net_pnl": -10.499327,
+      "trades": 8,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-05-20",
+      "daily_net_pnl": -88.162104,
+      "trades": 10,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-05-21",
+      "daily_net_pnl": 6904.065628,
+      "trades": 125,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-05-22",
+      "daily_net_pnl": -15.748349,
+      "trades": 6,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-05-23",
+      "daily_net_pnl": 299.91725,
+      "trades": 325,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-05-24",
+      "daily_net_pnl": 804.165113,
+      "trades": 2,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-05-25",
+      "daily_net_pnl": 3.879152,
+      "trades": 16,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-05-26",
+      "daily_net_pnl": 759.915709,
+      "trades": 16,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-05-27",
+      "daily_net_pnl": 1083.523404,
+      "trades": 251,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-05-29",
+      "daily_net_pnl": 240.915354,
+      "trades": 164,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-05-30",
+      "daily_net_pnl": 19.958107,
+      "trades": 7,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-05-31",
+      "daily_net_pnl": 24.085474,
+      "trades": 13,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-06-01",
+      "daily_net_pnl": 87.018313,
+      "trades": 25,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-06-02",
+      "daily_net_pnl": 185.114035,
+      "trades": 93,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-06-03",
+      "daily_net_pnl": 557.430122,
+      "trades": 70,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-06-04",
+      "daily_net_pnl": 44.778485,
+      "trades": 53,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-06-05",
+      "daily_net_pnl": 48.951446,
+      "trades": 54,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-06-06",
+      "daily_net_pnl": 237.093763,
+      "trades": 234,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-06-07",
+      "daily_net_pnl": 8529.504752,
+      "trades": 440,
+      "sentiment_value": 77.0
+    },
+    {
+      "trade_date": "2024-06-08",
+      "daily_net_pnl": 95.065702,
+      "trades": 29,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-06-09",
+      "daily_net_pnl": -7.515775,
+      "trades": 17,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-06-10",
+      "daily_net_pnl": 16.570477,
+      "trades": 53,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-06-11",
+      "daily_net_pnl": 4190.703598,
+      "trades": 123,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-06-12",
+      "daily_net_pnl": -21950.45291,
+      "trades": 254,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-06-13",
+      "daily_net_pnl": 6599.357365,
+      "trades": 79,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-06-14",
+      "daily_net_pnl": 10219.638533,
+      "trades": 31,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-06-15",
+      "daily_net_pnl": 3118.535797,
+      "trades": 78,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-06-16",
+      "daily_net_pnl": -8.832277,
+      "trades": 11,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-06-17",
+      "daily_net_pnl": 10470.56935,
+      "trades": 38,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-06-18",
+      "daily_net_pnl": 215.416102,
+      "trades": 25,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-06-19",
+      "daily_net_pnl": 4748.805201,
+      "trades": 61,
+      "sentiment_value": 64.0
+    },
+    {
+      "trade_date": "2024-06-20",
+      "daily_net_pnl": 57464.986976,
+      "trades": 39,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2024-06-21",
+      "daily_net_pnl": 712.281105,
+      "trades": 80,
+      "sentiment_value": 63.0
+    },
+    {
+      "trade_date": "2024-06-22",
+      "daily_net_pnl": 716.343183,
+      "trades": 24,
+      "sentiment_value": 53.0
+    },
+    {
+      "trade_date": "2024-06-23",
+      "daily_net_pnl": -0.179212,
+      "trades": 5,
+      "sentiment_value": 55.0
+    },
+    {
+      "trade_date": "2024-06-24",
+      "daily_net_pnl": -103.551001,
+      "trades": 31,
+      "sentiment_value": 51.0
+    },
+    {
+      "trade_date": "2024-06-25",
+      "daily_net_pnl": 4833.268454,
+      "trades": 49,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2024-06-26",
+      "daily_net_pnl": 4070.177882,
+      "trades": 72,
+      "sentiment_value": 46.0
+    },
+    {
+      "trade_date": "2024-06-27",
+      "daily_net_pnl": -45.556012,
+      "trades": 30,
+      "sentiment_value": 40.0
+    },
+    {
+      "trade_date": "2024-06-29",
+      "daily_net_pnl": 5690.030914,
+      "trades": 75,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2024-06-30",
+      "daily_net_pnl": -17.057669,
+      "trades": 14,
+      "sentiment_value": 47.0
+    },
+    {
+      "trade_date": "2024-07-01",
+      "daily_net_pnl": 4640.516283,
+      "trades": 64,
+      "sentiment_value": 53.0
+    },
+    {
+      "trade_date": "2024-07-02",
+      "daily_net_pnl": 2409.794386,
+      "trades": 18,
+      "sentiment_value": 51.0
+    },
+    {
+      "trade_date": "2024-07-03",
+      "daily_net_pnl": 1055.758602,
+      "trades": 18,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-07-04",
+      "daily_net_pnl": -113.024645,
+      "trades": 25,
+      "sentiment_value": 44.0
+    },
+    {
+      "trade_date": "2024-07-05",
+      "daily_net_pnl": -95.130717,
+      "trades": 32,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-07-06",
+      "daily_net_pnl": -235.481982,
+      "trades": 24,
+      "sentiment_value": 26.0
+    },
+    {
+      "trade_date": "2024-07-07",
+      "daily_net_pnl": 61.379067,
+      "trades": 10,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-07-08",
+      "daily_net_pnl": -0.0156,
+      "trades": 1,
+      "sentiment_value": 28.0
+    },
+    {
+      "trade_date": "2024-07-09",
+      "daily_net_pnl": 648.586844,
+      "trades": 15,
+      "sentiment_value": 27.0
+    },
+    {
+      "trade_date": "2024-07-10",
+      "daily_net_pnl": 11736.969867,
+      "trades": 56,
+      "sentiment_value": 28.0
+    },
+    {
+      "trade_date": "2024-07-11",
+      "daily_net_pnl": 1817.351639,
+      "trades": 19,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-07-12",
+      "daily_net_pnl": 1380.960625,
+      "trades": 19,
+      "sentiment_value": 25.0
+    },
+    {
+      "trade_date": "2024-07-13",
+      "daily_net_pnl": 2864.901627,
+      "trades": 17,
+      "sentiment_value": 25.0
+    },
+    {
+      "trade_date": "2024-07-14",
+      "daily_net_pnl": -29.400389,
+      "trades": 7,
+      "sentiment_value": 33.0
+    },
+    {
+      "trade_date": "2024-07-15",
+      "daily_net_pnl": -69.995769,
+      "trades": 26,
+      "sentiment_value": 52.0
+    },
+    {
+      "trade_date": "2024-07-16",
+      "daily_net_pnl": -50.400181,
+      "trades": 22,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2024-07-17",
+      "daily_net_pnl": 1652.667564,
+      "trades": 351,
+      "sentiment_value": 69.0
+    },
+    {
+      "trade_date": "2024-07-18",
+      "daily_net_pnl": 3576.487647,
+      "trades": 60,
+      "sentiment_value": 61.0
+    },
+    {
+      "trade_date": "2024-07-19",
+      "daily_net_pnl": 2103.296826,
+      "trades": 23,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2024-07-20",
+      "daily_net_pnl": 2218.411148,
+      "trades": 266,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-07-21",
+      "daily_net_pnl": -3025.440227,
+      "trades": 448,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-07-22",
+      "daily_net_pnl": 1419.66034,
+      "trades": 154,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-07-23",
+      "daily_net_pnl": 89831.05908,
+      "trades": 370,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-07-24",
+      "daily_net_pnl": 570.4942,
+      "trades": 90,
+      "sentiment_value": 69.0
+    },
+    {
+      "trade_date": "2024-07-25",
+      "daily_net_pnl": 692.552344,
+      "trades": 78,
+      "sentiment_value": 68.0
+    },
+    {
+      "trade_date": "2024-07-26",
+      "daily_net_pnl": 2559.946098,
+      "trades": 152,
+      "sentiment_value": 68.0
+    },
+    {
+      "trade_date": "2024-07-27",
+      "daily_net_pnl": 6083.803762,
+      "trades": 57,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-07-28",
+      "daily_net_pnl": 572.159908,
+      "trades": 16,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-07-29",
+      "daily_net_pnl": 216.28477,
+      "trades": 39,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-07-30",
+      "daily_net_pnl": -12.602264,
+      "trades": 6,
+      "sentiment_value": 67.0
+    },
+    {
+      "trade_date": "2024-07-31",
+      "daily_net_pnl": 736.113617,
+      "trades": 43,
+      "sentiment_value": 61.0
+    },
+    {
+      "trade_date": "2024-08-01",
+      "daily_net_pnl": 58.984981,
+      "trades": 57,
+      "sentiment_value": 52.0
+    },
+    {
+      "trade_date": "2024-08-02",
+      "daily_net_pnl": 636.847729,
+      "trades": 63,
+      "sentiment_value": 57.0
+    },
+    {
+      "trade_date": "2024-08-03",
+      "daily_net_pnl": 355.536594,
+      "trades": 37,
+      "sentiment_value": 37.0
+    },
+    {
+      "trade_date": "2024-08-04",
+      "daily_net_pnl": -123117.903118,
+      "trades": 127,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2024-08-05",
+      "daily_net_pnl": -13216.384327,
+      "trades": 80,
+      "sentiment_value": 26.0
+    },
+    {
+      "trade_date": "2024-08-06",
+      "daily_net_pnl": 204.696769,
+      "trades": 107,
+      "sentiment_value": 17.0
+    },
+    {
+      "trade_date": "2024-08-07",
+      "daily_net_pnl": 185.0370512,
+      "trades": 33,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-08-08",
+      "daily_net_pnl": -47.360212,
+      "trades": 9,
+      "sentiment_value": 20.0
+    },
+    {
+      "trade_date": "2024-08-09",
+      "daily_net_pnl": 17896.81689532,
+      "trades": 144,
+      "sentiment_value": 48.0
+    },
+    {
+      "trade_date": "2024-08-10",
+      "daily_net_pnl": -50.0831879,
+      "trades": 88,
+      "sentiment_value": 40.0
+    },
+    {
+      "trade_date": "2024-08-11",
+      "daily_net_pnl": 806.845333,
+      "trades": 24,
+      "sentiment_value": 39.0
+    },
+    {
+      "trade_date": "2024-08-12",
+      "daily_net_pnl": 822.598605,
+      "trades": 48,
+      "sentiment_value": 25.0
+    },
+    {
+      "trade_date": "2024-08-13",
+      "daily_net_pnl": 194.148143,
+      "trades": 23,
+      "sentiment_value": 31.0
+    },
+    {
+      "trade_date": "2024-08-14",
+      "daily_net_pnl": 2122.408407,
+      "trades": 25,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2024-08-15",
+      "daily_net_pnl": -16.50261,
+      "trades": 12,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-08-16",
+      "daily_net_pnl": 744.042602,
+      "trades": 35,
+      "sentiment_value": 27.0
+    },
+    {
+      "trade_date": "2024-08-17",
+      "daily_net_pnl": -305.379652,
+      "trades": 30,
+      "sentiment_value": 25.0
+    },
+    {
+      "trade_date": "2024-08-18",
+      "daily_net_pnl": 285.220331,
+      "trades": 15,
+      "sentiment_value": 31.0
+    },
+    {
+      "trade_date": "2024-08-19",
+      "daily_net_pnl": 304.589325,
+      "trades": 8,
+      "sentiment_value": 28.0
+    },
+    {
+      "trade_date": "2024-08-20",
+      "daily_net_pnl": 175.13267,
+      "trades": 12,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2024-08-21",
+      "daily_net_pnl": 619.454342,
+      "trades": 145,
+      "sentiment_value": 26.0
+    },
+    {
+      "trade_date": "2024-08-23",
+      "daily_net_pnl": 983.076928,
+      "trades": 10,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2024-08-24",
+      "daily_net_pnl": -12.249882,
+      "trades": 7,
+      "sentiment_value": 56.0
+    },
+    {
+      "trade_date": "2024-08-25",
+      "daily_net_pnl": -26.303603,
+      "trades": 17,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2024-08-26",
+      "daily_net_pnl": 198.933986,
+      "trades": 6,
+      "sentiment_value": 55.0
+    },
+    {
+      "trade_date": "2024-08-27",
+      "daily_net_pnl": -52.053552,
+      "trades": 50,
+      "sentiment_value": 48.0
+    },
+    {
+      "trade_date": "2024-08-28",
+      "daily_net_pnl": 1308.453619,
+      "trades": 9,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2024-08-29",
+      "daily_net_pnl": -3.498547,
+      "trades": 1,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-08-30",
+      "daily_net_pnl": 243.432824,
+      "trades": 6,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2024-08-31",
+      "daily_net_pnl": -29.072514,
+      "trades": 34,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-09-01",
+      "daily_net_pnl": 133.107232,
+      "trades": 12,
+      "sentiment_value": 26.0
+    },
+    {
+      "trade_date": "2024-09-02",
+      "daily_net_pnl": -10.500148,
+      "trades": 2,
+      "sentiment_value": 26.0
+    },
+    {
+      "trade_date": "2024-09-04",
+      "daily_net_pnl": 1002.214905,
+      "trades": 34,
+      "sentiment_value": 27.0
+    },
+    {
+      "trade_date": "2024-09-05",
+      "daily_net_pnl": 0.0,
+      "trades": 1,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-09-06",
+      "daily_net_pnl": -1118.523241,
+      "trades": 42,
+      "sentiment_value": 22.0
+    },
+    {
+      "trade_date": "2024-09-08",
+      "daily_net_pnl": 0.0,
+      "trades": 1,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2024-09-09",
+      "daily_net_pnl": -34.9079,
+      "trades": 2,
+      "sentiment_value": 26.0
+    },
+    {
+      "trade_date": "2024-09-10",
+      "daily_net_pnl": -227.020059,
+      "trades": 3,
+      "sentiment_value": 33.0
+    },
+    {
+      "trade_date": "2024-09-11",
+      "daily_net_pnl": 0.0,
+      "trades": 1,
+      "sentiment_value": 37.0
+    },
+    {
+      "trade_date": "2024-09-14",
+      "daily_net_pnl": -30.38133,
+      "trades": 11,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-09-18",
+      "daily_net_pnl": -910.417737,
+      "trades": 145,
+      "sentiment_value": 45.0
+    },
+    {
+      "trade_date": "2024-09-19",
+      "daily_net_pnl": -28.60766,
+      "trades": 19,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2024-09-20",
+      "daily_net_pnl": 9475.717249,
+      "trades": 16,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2024-09-21",
+      "daily_net_pnl": 36107.592489,
+      "trades": 23,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2024-09-22",
+      "daily_net_pnl": -6.999907,
+      "trades": 3,
+      "sentiment_value": 52.0
+    },
+    {
+      "trade_date": "2024-09-23",
+      "daily_net_pnl": 320.643794,
+      "trades": 2,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-09-24",
+      "daily_net_pnl": -12.966142,
+      "trades": 10,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2024-09-25",
+      "daily_net_pnl": -17.764677,
+      "trades": 9,
+      "sentiment_value": 59.0
+    },
+    {
+      "trade_date": "2024-09-26",
+      "daily_net_pnl": 408.464309,
+      "trades": 8,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-09-27",
+      "daily_net_pnl": -37.503311,
+      "trades": 56,
+      "sentiment_value": 61.0
+    },
+    {
+      "trade_date": "2024-09-28",
+      "daily_net_pnl": -2.80312,
+      "trades": 4,
+      "sentiment_value": 64.0
+    },
+    {
+      "trade_date": "2024-09-30",
+      "daily_net_pnl": 2644.988712,
+      "trades": 106,
+      "sentiment_value": 61.0
+    },
+    {
+      "trade_date": "2024-10-01",
+      "daily_net_pnl": -48.98401,
+      "trades": 4,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-10-02",
+      "daily_net_pnl": -34.984017,
+      "trades": 4,
+      "sentiment_value": 42.0
+    },
+    {
+      "trade_date": "2024-10-03",
+      "daily_net_pnl": 53.848291,
+      "trades": 9,
+      "sentiment_value": 37.0
+    },
+    {
+      "trade_date": "2024-10-04",
+      "daily_net_pnl": 0.0,
+      "trades": 1,
+      "sentiment_value": 41.0
+    },
+    {
+      "trade_date": "2024-10-05",
+      "daily_net_pnl": 5555.200121,
+      "trades": 37,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2024-10-06",
+      "daily_net_pnl": 25.441386,
+      "trades": 22,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-10-07",
+      "daily_net_pnl": -76.994616,
+      "trades": 21,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-10-08",
+      "daily_net_pnl": 5244.442418,
+      "trades": 36,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2024-10-09",
+      "daily_net_pnl": 318.922753,
+      "trades": 14,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2024-10-10",
+      "daily_net_pnl": -105.00851,
+      "trades": 16,
+      "sentiment_value": 39.0
+    },
+    {
+      "trade_date": "2024-10-11",
+      "daily_net_pnl": 8714.211283,
+      "trades": 26,
+      "sentiment_value": 32.0
+    },
+    {
+      "trade_date": "2024-10-12",
+      "daily_net_pnl": 485.655025,
+      "trades": 10,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2024-10-13",
+      "daily_net_pnl": -21.000841,
+      "trades": 10,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2024-10-14",
+      "daily_net_pnl": 1891.948976,
+      "trades": 5,
+      "sentiment_value": 48.0
+    },
+    {
+      "trade_date": "2024-10-15",
+      "daily_net_pnl": 1141.815403,
+      "trades": 7,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2024-10-16",
+      "daily_net_pnl": 191.400672,
+      "trades": 11,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-10-17",
+      "daily_net_pnl": -13.071147,
+      "trades": 9,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-10-18",
+      "daily_net_pnl": 291.103143,
+      "trades": 6,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-10-19",
+      "daily_net_pnl": -34.998901,
+      "trades": 4,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-10-20",
+      "daily_net_pnl": 329.898338,
+      "trades": 96,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-10-21",
+      "daily_net_pnl": 2355.057521,
+      "trades": 173,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-10-22",
+      "daily_net_pnl": -21.000124,
+      "trades": 3,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-10-23",
+      "daily_net_pnl": -119.992052,
+      "trades": 18,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2024-10-25",
+      "daily_net_pnl": 13092.020157,
+      "trades": 30,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-10-27",
+      "daily_net_pnl": 634.929768,
+      "trades": 4,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-10-28",
+      "daily_net_pnl": 125.006822,
+      "trades": 13,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-10-29",
+      "daily_net_pnl": 586.527162,
+      "trades": 53,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-10-30",
+      "daily_net_pnl": 5.553035,
+      "trades": 25,
+      "sentiment_value": 77.0
+    },
+    {
+      "trade_date": "2024-10-31",
+      "daily_net_pnl": 901.332883,
+      "trades": 48,
+      "sentiment_value": 77.0
+    },
+    {
+      "trade_date": "2024-11-01",
+      "daily_net_pnl": 949.820861,
+      "trades": 23,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-11-02",
+      "daily_net_pnl": -13.999997,
+      "trades": 2,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-11-03",
+      "daily_net_pnl": -40.404152,
+      "trades": 6,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-11-04",
+      "daily_net_pnl": 2641.276294,
+      "trades": 36,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-11-05",
+      "daily_net_pnl": 608.256404,
+      "trades": 10,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-11-06",
+      "daily_net_pnl": 2774.46982,
+      "trades": 15,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-11-07",
+      "daily_net_pnl": 4467.17469362,
+      "trades": 113,
+      "sentiment_value": 77.0
+    },
+    {
+      "trade_date": "2024-11-08",
+      "daily_net_pnl": -158.291798,
+      "trades": 39,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-11-09",
+      "daily_net_pnl": 36.724437,
+      "trades": 86,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-11-10",
+      "daily_net_pnl": 848.800788,
+      "trades": 173,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-11-11",
+      "daily_net_pnl": 6352.720446,
+      "trades": 373,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-11-12",
+      "daily_net_pnl": 3066.494541,
+      "trades": 171,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-11-13",
+      "daily_net_pnl": 7667.218206,
+      "trades": 48,
+      "sentiment_value": 84.0
+    },
+    {
+      "trade_date": "2024-11-14",
+      "daily_net_pnl": 4228.480423,
+      "trades": 110,
+      "sentiment_value": 88.0
+    },
+    {
+      "trade_date": "2024-11-15",
+      "daily_net_pnl": 3674.312925,
+      "trades": 149,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-11-16",
+      "daily_net_pnl": 2669.350606,
+      "trades": 157,
+      "sentiment_value": 86.0
+    },
+    {
+      "trade_date": "2024-11-17",
+      "daily_net_pnl": 611.863596,
+      "trades": 209,
+      "sentiment_value": 90.0
+    },
+    {
+      "trade_date": "2024-11-18",
+      "daily_net_pnl": 4025.710848,
+      "trades": 346,
+      "sentiment_value": 83.0
+    },
+    {
+      "trade_date": "2024-11-19",
+      "daily_net_pnl": 2756.782058,
+      "trades": 305,
+      "sentiment_value": 90.0
+    },
+    {
+      "trade_date": "2024-11-20",
+      "daily_net_pnl": 3566.035528,
+      "trades": 550,
+      "sentiment_value": 83.0
+    },
+    {
+      "trade_date": "2024-11-21",
+      "daily_net_pnl": 1493.802624,
+      "trades": 535,
+      "sentiment_value": 82.0
+    },
+    {
+      "trade_date": "2024-11-22",
+      "daily_net_pnl": -18541.784676,
+      "trades": 679,
+      "sentiment_value": 94.0
+    },
+    {
+      "trade_date": "2024-11-23",
+      "daily_net_pnl": 2746.909771,
+      "trades": 363,
+      "sentiment_value": 93.0
+    },
+    {
+      "trade_date": "2024-11-24",
+      "daily_net_pnl": 742.96726,
+      "trades": 172,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-11-25",
+      "daily_net_pnl": 5239.961033,
+      "trades": 255,
+      "sentiment_value": 82.0
+    },
+    {
+      "trade_date": "2024-11-26",
+      "daily_net_pnl": 783.510881,
+      "trades": 302,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-11-27",
+      "daily_net_pnl": -3094.210169,
+      "trades": 213,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-11-28",
+      "daily_net_pnl": -127390.981594,
+      "trades": 332,
+      "sentiment_value": 77.0
+    },
+    {
+      "trade_date": "2024-11-29",
+      "daily_net_pnl": 176652.54241643,
+      "trades": 393,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-11-30",
+      "daily_net_pnl": 36764.3181805,
+      "trades": 373,
+      "sentiment_value": 84.0
+    },
+    {
+      "trade_date": "2024-12-01",
+      "daily_net_pnl": 40640.98074262,
+      "trades": 416,
+      "sentiment_value": 81.0
+    },
+    {
+      "trade_date": "2024-12-02",
+      "daily_net_pnl": 18341.71649941,
+      "trades": 270,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-12-03",
+      "daily_net_pnl": 23245.96619329,
+      "trades": 374,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-12-04",
+      "daily_net_pnl": 292719.20860335,
+      "trades": 319,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-12-05",
+      "daily_net_pnl": 71221.35276477,
+      "trades": 456,
+      "sentiment_value": 84.0
+    },
+    {
+      "trade_date": "2024-12-06",
+      "daily_net_pnl": -93316.63768087,
+      "trades": 403,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-12-07",
+      "daily_net_pnl": 85797.8270291,
+      "trades": 304,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-12-08",
+      "daily_net_pnl": 15731.75455254,
+      "trades": 420,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-12-09",
+      "daily_net_pnl": 6136.19423957,
+      "trades": 539,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-12-10",
+      "daily_net_pnl": 38872.22954565,
+      "trades": 1596,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2024-12-11",
+      "daily_net_pnl": 318638.04498694,
+      "trades": 1221,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-12-12",
+      "daily_net_pnl": 598452.82955649,
+      "trades": 1932,
+      "sentiment_value": 83.0
+    },
+    {
+      "trade_date": "2024-12-13",
+      "daily_net_pnl": 31482.67436864,
+      "trades": 1173,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2024-12-14",
+      "daily_net_pnl": 167569.30779897,
+      "trades": 1235,
+      "sentiment_value": 83.0
+    },
+    {
+      "trade_date": "2024-12-15",
+      "daily_net_pnl": 97293.98470862,
+      "trades": 1697,
+      "sentiment_value": 80.0
+    },
+    {
+      "trade_date": "2024-12-16",
+      "daily_net_pnl": 166372.194077,
+      "trades": 1055,
+      "sentiment_value": 83.0
+    },
+    {
+      "trade_date": "2024-12-17",
+      "daily_net_pnl": 218845.16478602,
+      "trades": 1941,
+      "sentiment_value": 87.0
+    },
+    {
+      "trade_date": "2024-12-18",
+      "daily_net_pnl": 12991.54670279,
+      "trades": 1429,
+      "sentiment_value": 81.0
+    },
+    {
+      "trade_date": "2024-12-19",
+      "daily_net_pnl": 61687.77130692,
+      "trades": 3339,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2024-12-20",
+      "daily_net_pnl": 253758.82173322,
+      "trades": 2488,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-12-21",
+      "daily_net_pnl": 149341.77155987,
+      "trades": 1681,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-12-22",
+      "daily_net_pnl": 351864.10712847,
+      "trades": 774,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-12-23",
+      "daily_net_pnl": -30631.52352357,
+      "trades": 2347,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2024-12-24",
+      "daily_net_pnl": 14426.99767577,
+      "trades": 338,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-12-25",
+      "daily_net_pnl": 690.13826478,
+      "trades": 208,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-12-26",
+      "daily_net_pnl": 59705.28072352,
+      "trades": 697,
+      "sentiment_value": 79.0
+    },
+    {
+      "trade_date": "2024-12-27",
+      "daily_net_pnl": 2584.2553884,
+      "trades": 260,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2024-12-28",
+      "daily_net_pnl": 892.26513037,
+      "trades": 161,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2024-12-29",
+      "daily_net_pnl": 2811.9505699,
+      "trades": 201,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2024-12-30",
+      "daily_net_pnl": 8724.83181652,
+      "trades": 304,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2024-12-31",
+      "daily_net_pnl": 5178.49639887,
+      "trades": 306,
+      "sentiment_value": 64.0
+    },
+    {
+      "trade_date": "2025-01-01",
+      "daily_net_pnl": -9559.66972721,
+      "trades": 96,
+      "sentiment_value": 66.0
+    },
+    {
+      "trade_date": "2025-01-02",
+      "daily_net_pnl": 8540.37939377,
+      "trades": 361,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2025-01-03",
+      "daily_net_pnl": 5817.48895619,
+      "trades": 508,
+      "sentiment_value": 74.0
+    },
+    {
+      "trade_date": "2025-01-04",
+      "daily_net_pnl": 2319.825997,
+      "trades": 371,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2025-01-05",
+      "daily_net_pnl": 3048.37775203,
+      "trades": 239,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2025-01-06",
+      "daily_net_pnl": 5889.25430475,
+      "trades": 573,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2025-01-07",
+      "daily_net_pnl": 15794.84107837,
+      "trades": 637,
+      "sentiment_value": 78.0
+    },
+    {
+      "trade_date": "2025-01-08",
+      "daily_net_pnl": 129420.17764362,
+      "trades": 1039,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2025-01-09",
+      "daily_net_pnl": 46700.41512257,
+      "trades": 522,
+      "sentiment_value": 69.0
+    },
+    {
+      "trade_date": "2025-01-10",
+      "daily_net_pnl": -12211.05472705,
+      "trades": 819,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2025-01-11",
+      "daily_net_pnl": 1774.43255865,
+      "trades": 283,
+      "sentiment_value": 69.0
+    },
+    {
+      "trade_date": "2025-01-12",
+      "daily_net_pnl": 5130.1590503,
+      "trades": 602,
+      "sentiment_value": 62.0
+    },
+    {
+      "trade_date": "2025-01-13",
+      "daily_net_pnl": 8792.32922722,
+      "trades": 408,
+      "sentiment_value": 61.0
+    },
+    {
+      "trade_date": "2025-01-14",
+      "daily_net_pnl": 15828.92130552,
+      "trades": 275,
+      "sentiment_value": 63.0
+    },
+    {
+      "trade_date": "2025-01-15",
+      "daily_net_pnl": 14305.97930518,
+      "trades": 267,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2025-01-16",
+      "daily_net_pnl": 19917.14016004,
+      "trades": 371,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2025-01-17",
+      "daily_net_pnl": 6655.00095911,
+      "trades": 238,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2025-01-18",
+      "daily_net_pnl": -372.70111946,
+      "trades": 651,
+      "sentiment_value": 77.0
+    },
+    {
+      "trade_date": "2025-01-19",
+      "daily_net_pnl": 85761.44366229,
+      "trades": 1567,
+      "sentiment_value": 77.0
+    },
+    {
+      "trade_date": "2025-01-20",
+      "daily_net_pnl": 85069.57935334,
+      "trades": 1315,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2025-01-21",
+      "daily_net_pnl": 10679.5351557,
+      "trades": 530,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2025-01-22",
+      "daily_net_pnl": 20053.23791724,
+      "trades": 832,
+      "sentiment_value": 84.0
+    },
+    {
+      "trade_date": "2025-01-23",
+      "daily_net_pnl": 100167.89229032,
+      "trades": 1218,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2025-01-24",
+      "daily_net_pnl": 10264.1361369,
+      "trades": 874,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2025-01-25",
+      "daily_net_pnl": -10666.95001806,
+      "trades": 506,
+      "sentiment_value": 75.0
+    },
+    {
+      "trade_date": "2025-01-26",
+      "daily_net_pnl": 40441.20851377,
+      "trades": 451,
+      "sentiment_value": 73.0
+    },
+    {
+      "trade_date": "2025-01-27",
+      "daily_net_pnl": 40925.50622457,
+      "trades": 773,
+      "sentiment_value": 71.0
+    },
+    {
+      "trade_date": "2025-01-28",
+      "daily_net_pnl": 17854.90368837,
+      "trades": 498,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2025-01-29",
+      "daily_net_pnl": 22808.49032491,
+      "trades": 910,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2025-01-30",
+      "daily_net_pnl": 22222.82026927,
+      "trades": 1067,
+      "sentiment_value": 70.0
+    },
+    {
+      "trade_date": "2025-01-31",
+      "daily_net_pnl": 35197.35872149,
+      "trades": 1016,
+      "sentiment_value": 76.0
+    },
+    {
+      "trade_date": "2025-02-01",
+      "daily_net_pnl": 32014.72763511,
+      "trades": 634,
+      "sentiment_value": 68.0
+    },
+    {
+      "trade_date": "2025-02-02",
+      "daily_net_pnl": 161670.63753379,
+      "trades": 1319,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2025-02-03",
+      "daily_net_pnl": 345879.76064494,
+      "trades": 2380,
+      "sentiment_value": 44.0
+    },
+    {
+      "trade_date": "2025-02-04",
+      "daily_net_pnl": 413023.10955606,
+      "trades": 2512,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2025-02-05",
+      "daily_net_pnl": 55370.48594533,
+      "trades": 1297,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2025-02-06",
+      "daily_net_pnl": 33094.66937439,
+      "trades": 1703,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2025-02-07",
+      "daily_net_pnl": 21711.91285266,
+      "trades": 1524,
+      "sentiment_value": 44.0
+    },
+    {
+      "trade_date": "2025-02-08",
+      "daily_net_pnl": 476.72696682,
+      "trades": 575,
+      "sentiment_value": 44.0
+    },
+    {
+      "trade_date": "2025-02-09",
+      "daily_net_pnl": 150124.46766704,
+      "trades": 764,
+      "sentiment_value": 46.0
+    },
+    {
+      "trade_date": "2025-02-10",
+      "daily_net_pnl": 63417.1323079,
+      "trades": 889,
+      "sentiment_value": 43.0
+    },
+    {
+      "trade_date": "2025-02-11",
+      "daily_net_pnl": -6570.21494485,
+      "trades": 848,
+      "sentiment_value": 47.0
+    },
+    {
+      "trade_date": "2025-02-12",
+      "daily_net_pnl": 18749.48000086,
+      "trades": 1031,
+      "sentiment_value": 46.0
+    },
+    {
+      "trade_date": "2025-02-13",
+      "daily_net_pnl": 27006.04675398,
+      "trades": 1370,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2025-02-14",
+      "daily_net_pnl": 212899.09759225,
+      "trades": 1655,
+      "sentiment_value": 48.0
+    },
+    {
+      "trade_date": "2025-02-15",
+      "daily_net_pnl": 44668.83969198,
+      "trades": 932,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2025-02-16",
+      "daily_net_pnl": 2197.90641972,
+      "trades": 681,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2025-02-17",
+      "daily_net_pnl": 1565.08653936,
+      "trades": 941,
+      "sentiment_value": 51.0
+    },
+    {
+      "trade_date": "2025-02-18",
+      "daily_net_pnl": 90595.13300009,
+      "trades": 1676,
+      "sentiment_value": 47.0
+    },
+    {
+      "trade_date": "2025-02-19",
+      "daily_net_pnl": 14297.3072515,
+      "trades": 1361,
+      "sentiment_value": 44.0
+    },
+    {
+      "trade_date": "2025-02-20",
+      "daily_net_pnl": 44776.33007725,
+      "trades": 2012,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2025-02-21",
+      "daily_net_pnl": 118863.77563623,
+      "trades": 1873,
+      "sentiment_value": 55.0
+    },
+    {
+      "trade_date": "2025-02-22",
+      "daily_net_pnl": 24398.53954403,
+      "trades": 686,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2025-02-23",
+      "daily_net_pnl": 10426.93153183,
+      "trades": 520,
+      "sentiment_value": 50.0
+    },
+    {
+      "trade_date": "2025-02-24",
+      "daily_net_pnl": 36372.21180876,
+      "trades": 5616,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2025-02-25",
+      "daily_net_pnl": 201575.56196969,
+      "trades": 6246,
+      "sentiment_value": 25.0
+    },
+    {
+      "trade_date": "2025-02-26",
+      "daily_net_pnl": 62474.89058233,
+      "trades": 1176,
+      "sentiment_value": 21.0
+    },
+    {
+      "trade_date": "2025-02-27",
+      "daily_net_pnl": -37037.31349031,
+      "trades": 890,
+      "sentiment_value": 10.0
+    },
+    {
+      "trade_date": "2025-02-28",
+      "daily_net_pnl": 224749.71048404,
+      "trades": 1019,
+      "sentiment_value": 16.0
+    },
+    {
+      "trade_date": "2025-03-01",
+      "daily_net_pnl": 10559.04542261,
+      "trades": 174,
+      "sentiment_value": 20.0
+    },
+    {
+      "trade_date": "2025-03-02",
+      "daily_net_pnl": 64982.62376599,
+      "trades": 532,
+      "sentiment_value": 26.0
+    },
+    {
+      "trade_date": "2025-03-03",
+      "daily_net_pnl": 615372.46819058,
+      "trades": 1482,
+      "sentiment_value": 33.0
+    },
+    {
+      "trade_date": "2025-03-04",
+      "daily_net_pnl": 179855.23009972,
+      "trades": 2402,
+      "sentiment_value": 15.0
+    },
+    {
+      "trade_date": "2025-03-05",
+      "daily_net_pnl": 267007.04440615,
+      "trades": 1660,
+      "sentiment_value": 20.0
+    },
+    {
+      "trade_date": "2025-03-06",
+      "daily_net_pnl": 14794.50839774,
+      "trades": 760,
+      "sentiment_value": 25.0
+    },
+    {
+      "trade_date": "2025-03-07",
+      "daily_net_pnl": 145319.56058013,
+      "trades": 2552,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2025-03-08",
+      "daily_net_pnl": 24492.433586,
+      "trades": 529,
+      "sentiment_value": 28.0
+    },
+    {
+      "trade_date": "2025-03-09",
+      "daily_net_pnl": 17396.3934682,
+      "trades": 1422,
+      "sentiment_value": 27.0
+    },
+    {
+      "trade_date": "2025-03-10",
+      "daily_net_pnl": -13498.39974123,
+      "trades": 2911,
+      "sentiment_value": 20.0
+    },
+    {
+      "trade_date": "2025-03-11",
+      "daily_net_pnl": -79321.80927804,
+      "trades": 3286,
+      "sentiment_value": 24.0
+    },
+    {
+      "trade_date": "2025-03-12",
+      "daily_net_pnl": 284447.57064303,
+      "trades": 3968,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2025-03-13",
+      "daily_net_pnl": 13305.68416583,
+      "trades": 962,
+      "sentiment_value": 45.0
+    },
+    {
+      "trade_date": "2025-03-14",
+      "daily_net_pnl": 67452.67301408,
+      "trades": 2210,
+      "sentiment_value": 27.0
+    },
+    {
+      "trade_date": "2025-03-15",
+      "daily_net_pnl": 78120.291684,
+      "trades": 261,
+      "sentiment_value": 46.0
+    },
+    {
+      "trade_date": "2025-03-16",
+      "daily_net_pnl": -10353.42654718,
+      "trades": 530,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2025-03-17",
+      "daily_net_pnl": 25356.16650502,
+      "trades": 920,
+      "sentiment_value": 32.0
+    },
+    {
+      "trade_date": "2025-03-18",
+      "daily_net_pnl": 71464.852693,
+      "trades": 834,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2025-03-19",
+      "daily_net_pnl": 28590.1922699816,
+      "trades": 1612,
+      "sentiment_value": 32.0
+    },
+    {
+      "trade_date": "2025-03-20",
+      "daily_net_pnl": 9917.62399,
+      "trades": 771,
+      "sentiment_value": 49.0
+    },
+    {
+      "trade_date": "2025-03-21",
+      "daily_net_pnl": 6317.80969117,
+      "trades": 698,
+      "sentiment_value": 31.0
+    },
+    {
+      "trade_date": "2025-03-22",
+      "daily_net_pnl": 12229.70045203,
+      "trades": 535,
+      "sentiment_value": 32.0
+    },
+    {
+      "trade_date": "2025-03-23",
+      "daily_net_pnl": 13450.20557097,
+      "trades": 447,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2025-03-24",
+      "daily_net_pnl": 107347.85594963,
+      "trades": 1027,
+      "sentiment_value": 45.0
+    },
+    {
+      "trade_date": "2025-03-25",
+      "daily_net_pnl": 30629.55279423,
+      "trades": 791,
+      "sentiment_value": 46.0
+    },
+    {
+      "trade_date": "2025-03-26",
+      "daily_net_pnl": 14005.36391091,
+      "trades": 3102,
+      "sentiment_value": 47.0
+    },
+    {
+      "trade_date": "2025-03-27",
+      "daily_net_pnl": 58111.3351017,
+      "trades": 785,
+      "sentiment_value": 40.0
+    },
+    {
+      "trade_date": "2025-03-28",
+      "daily_net_pnl": 20947.89593995,
+      "trades": 728,
+      "sentiment_value": 44.0
+    },
+    {
+      "trade_date": "2025-03-29",
+      "daily_net_pnl": 11259.02841638,
+      "trades": 1894,
+      "sentiment_value": 26.0
+    },
+    {
+      "trade_date": "2025-03-30",
+      "daily_net_pnl": 15036.04338673,
+      "trades": 568,
+      "sentiment_value": 32.0
+    },
+    {
+      "trade_date": "2025-03-31",
+      "daily_net_pnl": 6496.18292589,
+      "trades": 495,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2025-04-01",
+      "daily_net_pnl": -2365.59823682,
+      "trades": 192,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2025-04-02",
+      "daily_net_pnl": 201031.5179001,
+      "trades": 1076,
+      "sentiment_value": 44.0
+    },
+    {
+      "trade_date": "2025-04-03",
+      "daily_net_pnl": -3703.0801287,
+      "trades": 1748,
+      "sentiment_value": 25.0
+    },
+    {
+      "trade_date": "2025-04-04",
+      "daily_net_pnl": -26351.742359361,
+      "trades": 1272,
+      "sentiment_value": 28.0
+    },
+    {
+      "trade_date": "2025-04-05",
+      "daily_net_pnl": 35625.277366,
+      "trades": 360,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2025-04-06",
+      "daily_net_pnl": 46435.0133593665,
+      "trades": 1048,
+      "sentiment_value": 34.0
+    },
+    {
+      "trade_date": "2025-04-07",
+      "daily_net_pnl": 31760.8152035971,
+      "trades": 2814,
+      "sentiment_value": 23.0
+    },
+    {
+      "trade_date": "2025-04-08",
+      "daily_net_pnl": 32624.41710694,
+      "trades": 943,
+      "sentiment_value": 24.0
+    },
+    {
+      "trade_date": "2025-04-09",
+      "daily_net_pnl": 37009.170438806,
+      "trades": 3967,
+      "sentiment_value": 18.0
+    },
+    {
+      "trade_date": "2025-04-10",
+      "daily_net_pnl": 151393.265760218,
+      "trades": 2127,
+      "sentiment_value": 39.0
+    },
+    {
+      "trade_date": "2025-04-11",
+      "daily_net_pnl": 124232.0400029099,
+      "trades": 1096,
+      "sentiment_value": 25.0
+    },
+    {
+      "trade_date": "2025-04-12",
+      "daily_net_pnl": 398902.098158543,
+      "trades": 2109,
+      "sentiment_value": 43.0
+    },
+    {
+      "trade_date": "2025-04-13",
+      "daily_net_pnl": 46127.6853007351,
+      "trades": 1321,
+      "sentiment_value": 45.0
+    },
+    {
+      "trade_date": "2025-04-14",
+      "daily_net_pnl": 43657.285344433,
+      "trades": 890,
+      "sentiment_value": 31.0
+    },
+    {
+      "trade_date": "2025-04-15",
+      "daily_net_pnl": 70490.80152261,
+      "trades": 1131,
+      "sentiment_value": 38.0
+    },
+    {
+      "trade_date": "2025-04-16",
+      "daily_net_pnl": 52634.11235171,
+      "trades": 1608,
+      "sentiment_value": 29.0
+    },
+    {
+      "trade_date": "2025-04-17",
+      "daily_net_pnl": 4908.71114908,
+      "trades": 1031,
+      "sentiment_value": 30.0
+    },
+    {
+      "trade_date": "2025-04-18",
+      "daily_net_pnl": 213.07681223,
+      "trades": 1894,
+      "sentiment_value": 33.0
+    },
+    {
+      "trade_date": "2025-04-19",
+      "daily_net_pnl": 65469.95116231,
+      "trades": 2786,
+      "sentiment_value": 32.0
+    },
+    {
+      "trade_date": "2025-04-20",
+      "daily_net_pnl": 23173.0123278942,
+      "trades": 1982,
+      "sentiment_value": 37.0
+    },
+    {
+      "trade_date": "2025-04-21",
+      "daily_net_pnl": 28013.17684312,
+      "trades": 1718,
+      "sentiment_value": 39.0
+    },
+    {
+      "trade_date": "2025-04-22",
+      "daily_net_pnl": 52903.077827,
+      "trades": 2998,
+      "sentiment_value": 47.0
+    },
+    {
+      "trade_date": "2025-04-23",
+      "daily_net_pnl": -426362.30657288,
+      "trades": 6159,
+      "sentiment_value": 72.0
+    },
+    {
+      "trade_date": "2025-04-24",
+      "daily_net_pnl": 43337.8956450647,
+      "trades": 2232,
+      "sentiment_value": 63.0
+    },
+    {
+      "trade_date": "2025-04-25",
+      "daily_net_pnl": 13919.7659512618,
+      "trades": 1653,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2025-04-26",
+      "daily_net_pnl": -6778.06069552,
+      "trades": 1131,
+      "sentiment_value": 65.0
+    },
+    {
+      "trade_date": "2025-04-27",
+      "daily_net_pnl": 2646.1406953438,
+      "trades": 337,
+      "sentiment_value": 61.0
+    },
+    {
+      "trade_date": "2025-04-28",
+      "daily_net_pnl": 30899.5623554699,
+      "trades": 1379,
+      "sentiment_value": 54.0
+    },
+    {
+      "trade_date": "2025-04-29",
+      "daily_net_pnl": 120600.3181398469,
+      "trades": 2243,
+      "sentiment_value": 60.0
+    },
+    {
+      "trade_date": "2025-04-30",
+      "daily_net_pnl": 11053.6134961245,
+      "trades": 1113,
+      "sentiment_value": 56.0
+    },
+    {
+      "trade_date": "2025-05-01",
+      "daily_net_pnl": 51884.2156190342,
+      "trades": 1230,
+      "sentiment_value": 53.0
+    }
+  ],
+  "topFearAccounts": [
+    {
+      "account": "0x083384f897ee0f19899168e3b1bec365f52a9012",
+      "Extreme Fear": 124625.229446,
+      "Fear": 1110127.701763,
+      "Neutral": 124348.968632,
+      "Greed": 275800.917329,
+      "Extreme Greed": -42078.309495,
+      "fear_net_pnl": 1234752.931209,
+      "greed_net_pnl": 233722.607834,
+      "fear_minus_greed": 1001030.323375,
+      "all_trades": 3818,
+      "all_net_pnl": 1592824.507675,
+      "all_win_rate": 0.3596123625
+    },
+    {
+      "account": "0xbaaaf6571ab7d571043ff1e313a9609a10637864",
+      "Extreme Fear": 260019.900625781,
+      "Fear": 615230.498392,
+      "Neutral": 56312.148887,
+      "Greed": 4.552649,
+      "Extreme Greed": 0.0,
+      "fear_net_pnl": 875250.399017781,
+      "greed_net_pnl": 4.552649,
+      "fear_minus_greed": 875245.846368781,
+      "all_trades": 21192,
+      "all_net_pnl": 931567.100553781,
+      "all_win_rate": 0.4675821065
+    },
+    {
+      "account": "0x8170715b3b381dffb7062c0298972d4727a0a63b",
+      "Extreme Fear": 12620.646661,
+      "Fear": 150815.218681,
+      "Neutral": 47316.25438,
+      "Greed": -360769.315876,
+      "Extreme Greed": -19183.31407892,
+      "fear_net_pnl": 163435.865342,
+      "greed_net_pnl": -379952.62995492,
+      "fear_minus_greed": 543388.4952969201,
+      "all_trades": 4601,
+      "all_net_pnl": -169200.51023292,
+      "all_win_rate": 0.382742882
+    },
+    {
+      "account": "0x4acb90e786d897ecffb614dc822eb231b4ffb9f4",
+      "Extreme Fear": 164735.50792,
+      "Fear": 293174.58315,
+      "Neutral": 96587.23313881,
+      "Greed": 94932.788648,
+      "Extreme Greed": 20290.945392,
+      "fear_net_pnl": 457910.09107,
+      "greed_net_pnl": 115223.73404,
+      "fear_minus_greed": 342686.35703,
+      "all_trades": 4356,
+      "all_net_pnl": 669721.05824881,
+      "all_win_rate": 0.4862258953
+    },
+    {
+      "account": "0x72c6a4624e1dffa724e6d00d64ceae698af892a0",
+      "Extreme Fear": 198844.447855,
+      "Fear": 144451.719339,
+      "Neutral": -4540.258551,
+      "Greed": 20979.495518,
+      "Extreme Greed": 522.60702384,
+      "fear_net_pnl": 343296.167194,
+      "greed_net_pnl": 21502.10254184,
+      "fear_minus_greed": 321794.06465216,
+      "all_trades": 1424,
+      "all_net_pnl": 360258.01118484,
+      "all_win_rate": 0.3033707865
+    }
+  ],
+  "topGreedAccounts": [
+    {
+      "account": "0xb1231a4a2dd02f2276fa3c5e2a2f3436e6bfed23",
+      "Extreme Fear": 8953.61169806,
+      "Fear": 90425.75461233,
+      "Neutral": 398266.55259402,
+      "Greed": 525962.20222277,
+      "Extreme Greed": 1103779.15831,
+      "fear_net_pnl": 99379.36631039,
+      "greed_net_pnl": 1629741.36053277,
+      "fear_minus_greed": -1530361.99422238,
+      "all_trades": 14733,
+      "all_net_pnl": 2127387.27943718,
+      "all_win_rate": 0.3371343243
+    },
+    {
+      "account": "0xbee1707d6b44d4d52bfe19e41f8a828645437aab",
+      "Extreme Fear": 29044.57719808,
+      "Fear": 51523.19727303,
+      "Neutral": 24007.12406048,
+      "Greed": 241015.4457194,
+      "Extreme Greed": 477137.30911706,
+      "fear_net_pnl": 80567.77447111,
+      "greed_net_pnl": 718152.75483646,
+      "fear_minus_greed": -637584.98036535,
+      "all_trades": 40184,
+      "all_net_pnl": 822727.65336805,
+      "all_win_rate": 0.4282301413
+    },
+    {
+      "account": "0x72743ae2822edd658c0c50608fd7c5c501b2afbd",
+      "Extreme Fear": 33314.94320767,
+      "Fear": -58347.14341496,
+      "Neutral": -10.599979,
+      "Greed": 453028.0488,
+      "Extreme Greed": -181.119965,
+      "fear_net_pnl": -25032.20020729,
+      "greed_net_pnl": 452846.928835,
+      "fear_minus_greed": -477879.12904229,
+      "all_trades": 1590,
+      "all_net_pnl": 427804.12864871,
+      "all_win_rate": 0.3459119497
+    },
+    {
+      "account": "0x430f09841d65beb3f27765503d0f850b8bce7713",
+      "Extreme Fear": -44.005053,
+      "Fear": 5548.824815,
+      "Neutral": 58748.634777,
+      "Greed": 227299.961959,
+      "Extreme Greed": 124241.448912,
+      "fear_net_pnl": 5504.819762,
+      "greed_net_pnl": 351541.410871,
+      "fear_minus_greed": -346036.591109,
+      "all_trades": 1237,
+      "all_net_pnl": 415794.86541,
+      "all_win_rate": 0.484236055
+    },
+    {
+      "account": "0x75f7eeb85dc639d5e99c78f95393aa9a5f1170d4",
+      "Extreme Fear": 25462.642353,
+      "Fear": 48858.149333,
+      "Neutral": -3037.147378,
+      "Greed": 95212.228143,
+      "Extreme Greed": 210004.27511832,
+      "fear_net_pnl": 74320.791686,
+      "greed_net_pnl": 305216.50326132,
+      "fear_minus_greed": -230895.71157532,
+      "all_trades": 9893,
+      "all_net_pnl": 376500.14756932,
+      "all_win_rate": 0.8108763772
+    }
+  ],
+  "highActivityBehavior": [
+    {
+      "account": "0x28736f43f1e871e6aa8b1148d38d4994275d72c4",
+      "classification": "Extreme Fear",
+      "net_pnl": -25820.018502275,
+      "trades": 574,
+      "win_rate": 0.287456446
+    },
+    {
+      "account": "0x28736f43f1e871e6aa8b1148d38d4994275d72c4",
+      "classification": "Extreme Greed",
+      "net_pnl": 106878.67091889,
+      "trades": 7481,
+      "win_rate": 0.4444592969
+    },
+    {
+      "account": "0x28736f43f1e871e6aa8b1148d38d4994275d72c4",
+      "classification": "Fear",
+      "net_pnl": 13152.948826873,
+      "trades": 1399,
+      "win_rate": 0.4303073624
+    },
+    {
+      "account": "0x28736f43f1e871e6aa8b1148d38d4994275d72c4",
+      "classification": "Greed",
+      "net_pnl": 30700.34344381,
+      "trades": 2970,
+      "win_rate": 0.4484848485
+    },
+    {
+      "account": "0x28736f43f1e871e6aa8b1148d38d4994275d72c4",
+      "classification": "Neutral",
+      "net_pnl": 5334.5025002511,
+      "trades": 887,
+      "win_rate": 0.4667418264
+    },
+    {
+      "account": "0x47add9a56df66b524d5e2c1993a43cde53b6ed85",
+      "classification": "Extreme Fear",
+      "net_pnl": -14582.43255724,
+      "trades": 391,
+      "win_rate": 0.26342711
+    },
+    {
+      "account": "0x47add9a56df66b524d5e2c1993a43cde53b6ed85",
+      "classification": "Extreme Greed",
+      "net_pnl": 66673.22038962,
+      "trades": 3150,
+      "win_rate": 0.3428571429
+    },
+    {
+      "account": "0x47add9a56df66b524d5e2c1993a43cde53b6ed85",
+      "classification": "Fear",
+      "net_pnl": 9879.3437842741,
+      "trades": 924,
+      "win_rate": 0.3766233766
+    },
+    {
+      "account": "0x47add9a56df66b524d5e2c1993a43cde53b6ed85",
+      "classification": "Greed",
+      "net_pnl": 36188.16020841,
+      "trades": 3398,
+      "win_rate": 0.3507945851
+    },
+    {
+      "account": "0x47add9a56df66b524d5e2c1993a43cde53b6ed85",
+      "classification": "Neutral",
+      "net_pnl": 3954.577814754,
+      "trades": 656,
+      "win_rate": 0.4390243902
+    },
+    {
+      "account": "0x4f93fead39b70a1824f981a54d4e55b278e9f760",
+      "classification": "Extreme Fear",
+      "net_pnl": 71421.679577,
+      "trades": 371,
+      "win_rate": 0.4285714286
+    },
+    {
+      "account": "0x4f93fead39b70a1824f981a54d4e55b278e9f760",
+      "classification": "Extreme Greed",
+      "net_pnl": 115357.146265,
+      "trades": 2446,
+      "win_rate": 0.3336058872
+    },
+    {
+      "account": "0x4f93fead39b70a1824f981a54d4e55b278e9f760",
+      "classification": "Fear",
+      "net_pnl": -24940.43915,
+      "trades": 1156,
+      "win_rate": 0.3555363322
+    },
+    {
+      "account": "0x4f93fead39b70a1824f981a54d4e55b278e9f760",
+      "classification": "Greed",
+      "net_pnl": 67854.162537,
+      "trades": 2334,
+      "win_rate": 0.3436161097
+    },
+    {
+      "account": "0x4f93fead39b70a1824f981a54d4e55b278e9f760",
+      "classification": "Neutral",
+      "net_pnl": 38558.853084,
+      "trades": 1277,
+      "win_rate": 0.4267815192
+    },
+    {
+      "account": "0x513b8629fe877bb581bf244e326a047b249c4ff1",
+      "classification": "Extreme Fear",
+      "net_pnl": -71659.388582,
+      "trades": 346,
+      "win_rate": 0.3034682081
+    },
+    {
+      "account": "0x513b8629fe877bb581bf244e326a047b249c4ff1",
+      "classification": "Extreme Greed",
+      "net_pnl": -12.38025211,
+      "trades": 223,
+      "win_rate": 0.0
+    },
+    {
+      "account": "0x513b8629fe877bb581bf244e326a047b249c4ff1",
+      "classification": "Fear",
+      "net_pnl": 329571.048489,
+      "trades": 5981,
+      "win_rate": 0.3705066042
+    },
+    {
+      "account": "0x513b8629fe877bb581bf244e326a047b249c4ff1",
+      "classification": "Greed",
+      "net_pnl": 138178.797436,
+      "trades": 3169,
+      "win_rate": 0.3764594509
+    },
+    {
+      "account": "0x513b8629fe877bb581bf244e326a047b249c4ff1",
+      "classification": "Neutral",
+      "net_pnl": 367919.83523342,
+      "trades": 2517,
+      "win_rate": 0.5542312277
+    },
+    {
+      "account": "0x75f7eeb85dc639d5e99c78f95393aa9a5f1170d4",
+      "classification": "Extreme Fear",
+      "net_pnl": 25462.642353,
+      "trades": 316,
+      "win_rate": 0.914556962
+    },
+    {
+      "account": "0x75f7eeb85dc639d5e99c78f95393aa9a5f1170d4",
+      "classification": "Extreme Greed",
+      "net_pnl": 210004.27511832,
+      "trades": 3831,
+      "win_rate": 0.8546071522
+    },
+    {
+      "account": "0x75f7eeb85dc639d5e99c78f95393aa9a5f1170d4",
+      "classification": "Fear",
+      "net_pnl": 48858.149333,
+      "trades": 1664,
+      "win_rate": 0.7794471154
+    },
+    {
+      "account": "0x75f7eeb85dc639d5e99c78f95393aa9a5f1170d4",
+      "classification": "Greed",
+      "net_pnl": 95212.228143,
+      "trades": 2618,
+      "win_rate": 0.807868602
+    },
+    {
+      "account": "0x75f7eeb85dc639d5e99c78f95393aa9a5f1170d4",
+      "classification": "Neutral",
+      "net_pnl": -3037.147378,
+      "trades": 1464,
+      "win_rate": 0.7151639344
+    },
+    {
+      "account": "0x8477e447846c758f5a675856001ea72298fd9cb5",
+      "classification": "Extreme Fear",
+      "net_pnl": 1559.69343,
+      "trades": 539,
+      "win_rate": 0.2504638219
+    },
+    {
+      "account": "0x8477e447846c758f5a675856001ea72298fd9cb5",
+      "classification": "Extreme Greed",
+      "net_pnl": 54876.79095793,
+      "trades": 3986,
+      "win_rate": 0.3361766182
+    },
+    {
+      "account": "0x8477e447846c758f5a675856001ea72298fd9cb5",
+      "classification": "Fear",
+      "net_pnl": 8912.991912,
+      "trades": 1474,
+      "win_rate": 0.3270013569
+    },
+    {
+      "account": "0x8477e447846c758f5a675856001ea72298fd9cb5",
+      "classification": "Greed",
+      "net_pnl": -25398.0796994,
+      "trades": 6804,
+      "win_rate": 0.1991475603
+    },
+    {
+      "account": "0x8477e447846c758f5a675856001ea72298fd9cb5",
+      "classification": "Neutral",
+      "net_pnl": 173.06928,
+      "trades": 2195,
+      "win_rate": 0.2810933941
+    },
+    {
+      "account": "0xa0feb3725a9335f49874d7cd8eaad6be45b27416",
+      "classification": "Extreme Fear",
+      "net_pnl": 987.68795,
+      "trades": 270,
+      "win_rate": 0.2259259259
+    },
+    {
+      "account": "0xa0feb3725a9335f49874d7cd8eaad6be45b27416",
+      "classification": "Extreme Greed",
+      "net_pnl": 47403.406606,
+      "trades": 3497,
+      "win_rate": 0.4235058622
+    },
+    {
+      "account": "0xa0feb3725a9335f49874d7cd8eaad6be45b27416",
+      "classification": "Fear",
+      "net_pnl": 12466.233759,
+      "trades": 2324,
+      "win_rate": 0.3184165232
+    },
+    {
+      "account": "0xa0feb3725a9335f49874d7cd8eaad6be45b27416",
+      "classification": "Greed",
+      "net_pnl": 34596.0726576317,
+      "trades": 4115,
+      "win_rate": 0.337545565
+    },
+    {
+      "account": "0xa0feb3725a9335f49874d7cd8eaad6be45b27416",
+      "classification": "Neutral",
+      "net_pnl": 8561.5188502641,
+      "trades": 5399,
+      "win_rate": 0.3195036118
+    },
+    {
+      "account": "0xb1231a4a2dd02f2276fa3c5e2a2f3436e6bfed23",
+      "classification": "Extreme Fear",
+      "net_pnl": 8953.61169806,
+      "trades": 739,
+      "win_rate": 0.3112313938
+    },
+    {
+      "account": "0xb1231a4a2dd02f2276fa3c5e2a2f3436e6bfed23",
+      "classification": "Extreme Greed",
+      "net_pnl": 1103779.15831,
+      "trades": 1643,
+      "win_rate": 0.510042605
+    },
+    {
+      "account": "0xb1231a4a2dd02f2276fa3c5e2a2f3436e6bfed23",
+      "classification": "Fear",
+      "net_pnl": 90425.75461233,
+      "trades": 3005,
+      "win_rate": 0.3271214642
+    },
+    {
+      "account": "0xb1231a4a2dd02f2276fa3c5e2a2f3436e6bfed23",
+      "classification": "Greed",
+      "net_pnl": 525962.20222277,
+      "trades": 5889,
+      "win_rate": 0.27322126
+    },
+    {
+      "account": "0xb1231a4a2dd02f2276fa3c5e2a2f3436e6bfed23",
+      "classification": "Neutral",
+      "net_pnl": 398266.55259402,
+      "trades": 3457,
+      "win_rate": 0.3780734741
+    },
+    {
+      "account": "0xbaaaf6571ab7d571043ff1e313a9609a10637864",
+      "classification": "Extreme Fear",
+      "net_pnl": 260019.900625781,
+      "trades": 4480,
+      "win_rate": 0.3794642857
+    },
+    {
+      "account": "0xbaaaf6571ab7d571043ff1e313a9609a10637864",
+      "classification": "Fear",
+      "net_pnl": 615230.498392,
+      "trades": 12437,
+      "win_rate": 0.4982712873
+    },
+    {
+      "account": "0xbaaaf6571ab7d571043ff1e313a9609a10637864",
+      "classification": "Greed",
+      "net_pnl": 4.552649,
+      "trades": 5,
+      "win_rate": 0.2
+    },
+    {
+      "account": "0xbaaaf6571ab7d571043ff1e313a9609a10637864",
+      "classification": "Neutral",
+      "net_pnl": 56312.148887,
+      "trades": 4270,
+      "win_rate": 0.4709601874
+    },
+    {
+      "account": "0xbee1707d6b44d4d52bfe19e41f8a828645437aab",
+      "classification": "Extreme Fear",
+      "net_pnl": 29044.57719808,
+      "trades": 5079,
+      "win_rate": 0.4132703288
+    },
+    {
+      "account": "0xbee1707d6b44d4d52bfe19e41f8a828645437aab",
+      "classification": "Extreme Greed",
+      "net_pnl": 477137.30911706,
+      "trades": 6723,
+      "win_rate": 0.5963111706
+    },
+    {
+      "account": "0xbee1707d6b44d4d52bfe19e41f8a828645437aab",
+      "classification": "Fear",
+      "net_pnl": 51523.19727303,
+      "trades": 12901,
+      "win_rate": 0.3765599566
+    },
+    {
+      "account": "0xbee1707d6b44d4d52bfe19e41f8a828645437aab",
+      "classification": "Greed",
+      "net_pnl": 241015.4457194,
+      "trades": 7338,
+      "win_rate": 0.4647042791
+    },
+    {
+      "account": "0xbee1707d6b44d4d52bfe19e41f8a828645437aab",
+      "classification": "Neutral",
+      "net_pnl": 24007.12406048,
+      "trades": 8143,
+      "win_rate": 0.3477833722
+    }
+  ],
+  "figures": {
+    "netPnlPerTrade": "reports/figures/net_pnl_per_trade_by_sentiment.png",
+    "distribution": "reports/figures/net_pnl_distribution_by_sentiment.png",
+    "dailyScatter": "reports/figures/daily_sentiment_vs_net_pnl.png"
+  },
+  "caveats": [
+    "The provided trader dataset does not include leverage, so leverage-adjusted analysis was not possible.",
+    "Closed PnL is realized at trade events and can reflect broader position context, not a clean isolated return for each fill.",
+    "Sentiment is joined at daily granularity, so intraday sentiment shifts are not represented."
+  ]
+};
