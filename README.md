@@ -4,7 +4,7 @@ Research-grade analysis pipeline and interactive dashboard for studying how Bitc
 
 ## Live Dashboard
 
-- Production URL: https://fina-khaki.vercel.app
+- Production URL: (https://sentimentalx.vercel.app/)
 
 ## Highlights
 
